@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	
+	<script type="text/javascript">
+	
+		function sprawdz()
+		{
+			var liczba = document.getElementById("pole").value;
+			document.write(liczba);
+		
+		
+		}
+		
+	</script>	
+	
+	<style >
+		#pole
+		{
+			background-color: red;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<div >
+	<input type="text" id="pole"/>
+	<input type="submit" id="pole" value="Sprawdź" onclick="sprawdz()"/>
+	
+		<div id="wynik"></div>
+		
+	</div>
+
+</body>
+
+</html>
