@@ -1,9 +1,9 @@
 import facebook
 import pyowm
 
-token = 'EAAErk3lKgk8BAEeOZC4XB0Dn2Blqn8WlwtNiZCuvWm3XerEJC59ZCZBma31oHOJglzolwlnySYdWEzXrYByvk3IiWxRZAqoqeqQRyUtvWBiKR6vpfacCbTqxHQg2X1OhBNTId8uj72pKb3PO8cFZCRvQqmQlTJzfJv3pzZCJJKQbli4VZA2Pa4dnQ0fo1CUmfU32K3txgxBKvZB2StFDUPmwryAZCVq3wJHpOTpbJ3luWxeQZDZD'
+token = 'Your Token'
 fb = facebook.GraphAPI(access_token=token)
-owm = pyowm.OWM("673f06fc0fe79af7f341e7df271f1c39")
+owm = pyowm.OWM("Your Token")
 city = owm.weather_manager().weather_at_place("Gdańsk")
 
 
